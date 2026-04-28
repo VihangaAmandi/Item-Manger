@@ -1,3 +1,27 @@
+npx @google/gemini-cli
+BACKEND
+
+npm install nodemon --save-dev
+
+npm run dev
+
+FRONTEND
+
+npm install
+
+npm run dev
+
+GIT PUSH
+
+git init git add . git commit -m "Initial commit"
+
+git remote add origin https://github.com/your-username/mern-task-manager.git git branch -M main git push -u origin main
+
+After updates: git add . git commit -m "update" git push
+
+.gitignore .env node_modules/ dist/
+
+.json { "name": "backend", "version": "1.0.0", "type": "module", "main": "server.js", "scripts": { "start": "node server.js", "dev": "nodemon server.js" },
 MERN Task Manager - Commands, API Paths & Deployment Guide
 
 ========================
